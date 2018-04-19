@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/bs1"
+        android:layout_width="120dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="165dp"
+        android:layout_toStartOf="@+id/editText2"
+        android:text="Teacher"
+        android:onClick="Action1"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <Button
+        android:id="@+id/bs3"
+        android:layout_width="120dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/bs1"
+        android:layout_marginEnd="26dp"
+        android:text="Student"
+        android:onClick="Action2"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="60dp"
+        android:text="      WELCOME" />
+
+</RelativeLayout>

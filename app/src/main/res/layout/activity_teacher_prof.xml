@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".teacher_prof">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="65dp"
+        android:text="Name " />
+
+    <TextView
+        android:id="@+id/Tpname"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_marginEnd="30dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginTop="143dp"
+        android:text="Course Name" />
+
+    <TextView
+        android:id="@+id/Tpcousrename"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Tpname"
+        android:layout_alignTop="@+id/textView7"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginTop="215dp"
+        android:text="Course Id" />
+
+    <TextView
+        android:id="@+id/Tpcourseid"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Tpname"
+        android:layout_alignTop="@+id/textView18"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/signOut"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="17dp"
+        android:text="Signout" />
+</RelativeLayout>

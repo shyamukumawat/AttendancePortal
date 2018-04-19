@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".teacher_login"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="213dp"
+        android:onClick="Action1"
+        android:text="Sign Up"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="119dp"
+        android:onClick="Action2"
+        android:text="Sign In"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="97dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="205dp"
+        android:text="    New User" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:text=" Already Signed up!!! " />
+
+</RelativeLayout>

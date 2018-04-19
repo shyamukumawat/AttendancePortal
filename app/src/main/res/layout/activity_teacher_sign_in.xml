@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".teacher_sign_in">
+
+    <EditText
+        android:id="@+id/teacheremail"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="85dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="112dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/teacherpass"
+        android:layout_width="244dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tloginid" />
+
+    <Button
+        android:id="@+id/teacher_signin"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="104dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="37dp"
+        android:text="Sign In"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacherpass" />
+
+    <EditText
+        android:id="@+id/Tloginid"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="Teacher Id"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacheremail" />
+</android.support.constraint.ConstraintLayout>
